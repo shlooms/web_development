@@ -1,5 +1,6 @@
   body {
     background-color: #e8e8e8;
+    font-family: 'Source Code Pro', monospace;
   }
 
   hr {
@@ -7,7 +8,6 @@
     border-top-style: dotted;
     border-color: gray;
     border-width: 5px;
-    height: 0px;
     width: 5%;
 
   }
@@ -16,7 +16,11 @@ h1, h3 {
   color: #5588A3;
 }
 
+.circular {
+  border-radius: 100%;
+}
 
-a {
-  align-items: center;
+.stars:hover {
+  color: gold;
+
 }
